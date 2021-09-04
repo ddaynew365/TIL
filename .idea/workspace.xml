@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="829afed4-eab0-43eb-b969-303bdb286ad8" name="Default Changelist" comment="upload 자바스크립트 TIL">
-      <change afterPath="$PROJECT_DIR$/자바스크립트/자바스크립트강의/Javascript객체소개.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/자바스크립트/자바스크립트강의/Javascript함수.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/자바스크립트/자바스크립트강의/연습.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/자바스크립트/자바스크립트강의/연습.html" beforeDir="false" afterPath="$PROJECT_DIR$/자바스크립트/자바스크립트강의/연습.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/자바스크립트/자바스크립트강의/자바스크립트 문법.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/파이썬/파이썬.md" beforeDir="false" afterPath="$PROJECT_DIR$/파이썬/파이썬.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +31,10 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Markdown" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../challenge-day1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../boostcamp_membership" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -42,6 +44,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1625226425141</updated>
+      <workItem from="1629719943831" duration="356000" />
+      <workItem from="1629720723774" duration="1011000" />
     </task>
     <task id="LOCAL-00001" summary="upload 자바스크립트 TIL">
       <created>1626511663556</created>
@@ -52,6 +56,9 @@
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
