@@ -97,7 +97,7 @@
   - 즉 this의 역할을 우리가 직접 명확하게 지정해준다는 의미
   - function.prototype.call, function.prototype.bind, function.prototype.apply와 같은 메소드를 사용하여 할 수 있다.
   ### bind
-  - f.bind(somrObject)를 호출하면 f와 같은 본문과 범위를 가졌지만 thiis는 원본 함수를 가진 새로운 함수를 생성. 새 함수의 this는 호출 방식과 상관없이 영구적으로 bind()의 첫 번째 매개변수로 고정
+  - f.bind(somrObject)를 호출하면 f와 같은 본문과 범위를 가졌지만 this는 원본 함수를 가진 새로운 함수를 생성. 새 함수의 this는 호출 방식과 상관없이 영구적으로 bind()의 첫 번째 매개변수로 고정
 
   ```js
   function f() {
@@ -150,6 +150,7 @@
   ## 5. Arrow Function
   - arrow function이 선언된 부분 스코프의 this context를 this context로 사용(뭔말?)
   - arrow function이 자신을 둘러싼 환경의 this 문맥을 그대로 따르기 때문이다. 9라인에서 간접 실행이 일어나며 this의 문맥이 결정되면, arrow function도 이를 그대로 따르는 것이다. 따라서 arrow function은 실행도중 this의 스코프를 바꾸고 싶지 않을때 유용하다.
+  - 자기 scope 내부에서 this가 없기 때문에, 상위 스코프로 스코프 체이닝때문
   ```js
   function objFunction() { 
     console.log('Inside `objFunction`:', this.foo); // 13 
