@@ -1,5 +1,13 @@
+const x = 1;
 
-  function Person() {
-    console.log(this);
+function outerFunc() {
+  const x =10;
+
+  function innerFunc(){
+    console.log(x);
   }
-  new Person(); // 빈 객체가 return 된다
+
+  innerFunc();
+}
+
+outerFunc();
